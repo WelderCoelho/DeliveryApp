@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "918831119875",
+    "project_id": "app-delivery-c204b",
+    "storage_bucket": "app-delivery-c204b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918831119875:android:9aa91a01a49af36cefd836",
+        "android_client_info": {
+          "package_name": "com.welder.appdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918831119875-jauj41npkmpfodcsn4ds7cpdt8mh9884.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiciDhtaFnttEn4zcJP0sCY_Q18_yQq6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918831119875-jauj41npkmpfodcsn4ds7cpdt8mh9884.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
