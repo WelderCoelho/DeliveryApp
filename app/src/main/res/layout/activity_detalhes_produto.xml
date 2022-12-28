@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detalhes_Produto">
+    
+    <ImageView
+        android:id="@+id/dt_foto_prod"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@android:color/background_dark"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/dt_nome_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/dt_descricao_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/dt_valor_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor  "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/dt_preco_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" juyjuyjyuu"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp"/>
+
+    <Button
+        android:id="@+id/dt_finalizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizar Pedido"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:drawableEnd="@drawable/icfinazir"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
